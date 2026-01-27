@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using static System.Net.WebRequestMethods;
 
 namespace ClashExtensionAPI.Controllers
 {
@@ -13,10 +14,17 @@ namespace ClashExtensionAPI.Controllers
             _httpClient = _client.CreateClient("coc");
         }
 
-        [HttpGet("GetClans")]
-        public async Task<string> GetClans()
+        [HttpGet("/clans/{clanTag}/members")]
+        public async Task<string> GetClanMembers(string clanTag)
         {
-            return "test";
+            //Nog base address zetten voor url 
+
+            var url = "https://api.clashofclans.com/v1/clans/%23" + clanTag + "/members";
+            
+
+            //Nieuw object aanmaken bv. Player en Items
+            return await _httpClient.GetStringAsync(url);
+
         }
     }
 }

@@ -1,4 +1,6 @@
 
+using Microsoft.AspNetCore.Components;
+
 namespace ClashExtensionAPI
 {
     public class Program
@@ -20,6 +22,7 @@ namespace ClashExtensionAPI
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            
 
             var app = builder.Build();
 
