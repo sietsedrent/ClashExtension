@@ -11,6 +11,8 @@ namespace ClashBlazor
             // Add services to the container.
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
+            builder.Services.AddHttpClient("coc", client =>
+                client.BaseAddress = new Uri("https://localhost:5001"));
 
             var app = builder.Build();
 
@@ -23,7 +25,7 @@ namespace ClashBlazor
             }
 
             app.UseHttpsRedirection();
-
+            
             app.UseStaticFiles();
             app.UseAntiforgery();
 
