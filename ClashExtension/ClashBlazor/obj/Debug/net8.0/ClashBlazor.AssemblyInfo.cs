@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClashBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4461466f69e57449bc9d0013dea2f1288fd44b21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5ea763abe464333b64ac79f0ea1f5821d133fd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClashBlazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClashBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
