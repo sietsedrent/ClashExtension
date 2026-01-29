@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClashExtensionAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4461466f69e57449bc9d0013dea2f1288fd44b21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dabbfcfc5d18f0ca73e999f30fd95fa09ae1a2c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClashExtensionAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClashExtensionAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

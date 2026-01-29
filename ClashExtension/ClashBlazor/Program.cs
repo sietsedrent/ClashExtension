@@ -12,7 +12,7 @@ namespace ClashBlazor
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
             builder.Services.AddHttpClient("coc", client =>
-                client.BaseAddress = new Uri("https://localhost:5001"));
+                client.BaseAddress = new Uri("https://localhost:7089"));
 
             var app = builder.Build();
 
